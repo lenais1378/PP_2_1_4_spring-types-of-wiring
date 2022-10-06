@@ -5,12 +5,11 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
-@Qualifier("deth8")
 public class Needle7 {
     private final Deth8 deth;
 
     @Autowired
-    public Needle7(Deth8 deth) {
+    public Needle7(@Qualifier("deth8") Deth8 deth) {
         this.deth = deth;
     }
 
