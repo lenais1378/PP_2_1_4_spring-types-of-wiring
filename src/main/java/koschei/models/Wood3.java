@@ -1,9 +1,11 @@
 package koschei.models;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
+@Qualifier("rabbit4")
 public class Wood3 {
 
     private final Rabbit4 rabbit;

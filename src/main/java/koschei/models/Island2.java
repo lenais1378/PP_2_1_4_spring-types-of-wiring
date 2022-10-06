@@ -1,5 +1,10 @@
 package koschei.models;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
+@Qualifier("wood3")
 public class Island2 {
 
     private Wood3 wood;
