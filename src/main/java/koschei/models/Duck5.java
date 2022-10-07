@@ -7,9 +7,9 @@ import org.springframework.stereotype.Component;
 @Component
 
 public class Duck5 {
-    @Autowired
     private Egg6 egg;
-    public Duck5(@Qualifier("egg6") Egg6 egg) {
+    @Autowired
+    public Duck5(Egg6 egg) {
         this.egg = egg;
     }
 

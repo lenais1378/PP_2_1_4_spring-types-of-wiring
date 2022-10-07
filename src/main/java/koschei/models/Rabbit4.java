@@ -14,7 +14,6 @@ public class Rabbit4 {
         return ", в зайце утка " + duck.toString();
     }
     @Autowired
-    @Qualifier("duck5")
     public void setDuck(Duck5 duck) {
         this.duck = duck;
     }

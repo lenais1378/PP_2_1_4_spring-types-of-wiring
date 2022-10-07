@@ -6,7 +6,6 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
-
 public class KoscheiTheDeathless {
 
     private Ocean1 ocean;
@@ -16,7 +15,6 @@ public class KoscheiTheDeathless {
     }
 
     @Autowired
-    @Qualifier("ocean1")
     public void setOcean(Ocean1 ocean) {
         this.ocean = ocean;
     }
